@@ -12,9 +12,16 @@ AWS EC2 instance, Docker, Node JS, Angular CLI, GitHub
 # Screenshots 
 **Run Docker image
 
+<img width="1440" alt="Screen Shot 2022-02-14 at 12 45 38 PM" src="https://user-images.githubusercontent.com/24601296/153847989-86e13112-fbf7-43e6-8a43-013185de65da.png">
+
 **Docker image pull into EC2 intance and run it (terminal interface)
 
+<img width="1440" alt="Screen Shot 2022-02-14 at 12 18 41 PM" src="https://user-images.githubusercontent.com/24601296/153848047-df541649-0ff2-4bf5-ab98-412f660f4418.png">
+
 **App running on EC2 instance 
+
+<img width="1440" alt="Screen Shot 2022-02-14 at 12 18 31 PM" src="https://user-images.githubusercontent.com/24601296/153848106-0e6731b9-2738-425b-8971-d01f1378b316.png">
+
 
 ## Steps to run App
 **Type it on terminal!**
