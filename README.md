@@ -1,27 +1,33 @@
-# DockerizingAngularApp
+# SimpliLearn MEAN Stack Developer Bootcamp (Fourth Project) - Dockerizing Angular Application
+Deploy an Angular application on Docker container on an EC2 instance
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+# Following requirements should be met:  
+* Source code should be tracked on GitHub repositories. You need to document the tracked files that are ignored during the final push to the GitHub repository.
+* The submission of your GitHub repository link is mandatory in order to track your task.
+* The step-by-step process involved in completing this task should be documented.
 
-## Development server
+# You must use the following:
+AWS EC2 instance, Docker, Node JS, Angular CLI, GitHub
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Screenshots 
+**Run Docker image
 
-## Code scaffolding
+**Docker image pull into EC2 intance and run it (terminal interface)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**App running on EC2 instance 
 
-## Build
+## Steps to run App
+**Type it on terminal!**
+1. Pull the App from docker 
+       ** ```
+        docker pull salwaalhajjaji/dockerizing-angular-ec2
+        ```
+        
+2. Run the docker image 
+        ** ```
+        docker run –d –p 81:80 salwaalhajjaji/dockerizing-angular-ec
+        ```
+        
+3. Paste this linl on your browser the app will run
+    http://localhost:81
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
